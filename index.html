@@ -1,132 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Resume</title>
+        <title>HTML 5 Boilerplate</title>
         <link rel="stylesheet" href="style.css">
-        <style>
-            * {
-                margin: 0;
-                padding: 0;
-                background-color: #323232;
-                color: white;
-            }
-
-            .nav {
-                align-items: center;
-                height: 75px;
-                display: flex;
-                border-style: solid;
-                border-color: green;
-                background-color: #212121;
-                width: 100vw;
-            }
-
-            .navbutton {
-                font-weight: bold;
-                font-size: 20px;
-                margin-left: 20px;
-                display: inherit;
-                padding: 15px 30px;
-                background-color: inherit;
-                cursor: pointer;
-                border: none;
-                color: white;
-                font-family: sans-serif;
-            }
-
-            .navicon {
-                width: 90px;
-                border-radius: 50px;
-                margin-right: 25px;
-                margin-left: 25px;
-            }
-            .contentbody {
-                border-style: solid;
-                border-color: yellow;
-                margin-left: 550px;
-                margin-right: 150px;
-                height: 100%;
-                background-color: #212121;
-            }
-            .content {
-                background-color: inherit;
-                color: white;
-                text-align: center;
-                margin-inline: 50px;
-                border-style: solid;
-                margin-block: 10px;
-                font-family: Verdana;
-            }
-            .certificates {
-                border-radius: 20px 20px;
-                border-style: solid;
-                border-color: pink;
-                background-color: #0D7377;
-                position: absolute;
-                height: 450px;
-                width: 400px;
-                display: flex;
-                float: left;
-                margin-top: 50px;
-                margin-bottom: 500px;
-                margin-left: 50px;
-            }
-            .certificatebody {
-                border-style: solid;
-                border-color: purple;
-                width: 500px;
-                text-align: center;
-                margin-inline: 50px;
-                margin-block: 25px;
-                background-color: inherit;
-            }
-            .footer {
-                display: flex;
-                width: 100%;
-                background-color: #212121;
-                border-style: solid;
-                border-color: aqua;
-                position: fixed;
-                bottom: 0;
-
-            }
-        </style>
     </head>
     <body>
-        <script src="index.js"></script>
-
-        <div class="nav">
-            <img src="src/funny.png" class="navicon">
-            <button class="navbutton">
-                About
-            </button>
-            <button class="navbutton">
-                Contact
-            </button>
-        </div>
-
-        <div class="certificates">
-            <div class="certificatebody">
-                sup
+        <div class="navbar">
+            <img src="src/funny.png" style="height: inherit;">
+            <div>
+                <a href="index.html">About</a>
+                <a href="index.html">Contact</a>
+                <a href="index.html">Projects</a>
             </div>
         </div>
-        <div style="margin-top: 50px;"></div>
-        <div class="contentbody">
-            <p class="content">
-                Hi, my name is Juan Myburg. I am a developer from South-Africa and graduated from the North-West University in Potchefstroom in 2022. I live to code. I wish to become the best in the craft. I yearn to be in the industry and create better products for clients and collaborate with others to soar to greater heights.
-            </p>
-            <p class="content">
-                I am a hard worker. Sometimes I find myself in a coding trance, unable to stop until I reach my goal or even finish the project. I am dilligent. I like the working mechanisms of data manipulation. It's fun for me to see the data from a database be manipulated into something more readable and user friendly.
-            </p>
-            <p class="content">
-                currently unable to center p in div
-            </p>
-        </div>
-        <div class="footer">
-            <p>Juan Myburg</p>
+        <div class="content">
+            <div class="rightinfo"></div>
         </div>
     </body>
 </html>
