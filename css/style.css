@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: #080808;
+    color: white;
+}
+
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(src/Le_monke.webp);
+    background-size: cover;
+    background-position: center;
+
+    border-style: solid;
+}
+
+.logo{
+    width: 100px;
+}
+
+.container{
+    padding: 10px 10%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    border-style: solid;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 20px 20px;
+
+    border-style: solid;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.header-text{
+    margin-top: 20%;
+}
+
+#about{
+    width: 100%;
+    height: 100vh;
+
+    border-style: solid;
+}
+
+.row{    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10%;
+
+
+    border-style: solid;
+}
+
+.about-col-1{
+    flex-basis: 20%;
+}
+
+.about-col-1 img{
+    width: 400px;
+}
+
+.about-col-2{
+    flex-basis: 60%;
+}
+
+.sub-title{
+    text-align: center;
+}
+
+.sub-title h1{
+    margin-top: 40px;
+}
+
+.sub-title p{
+    margin-top: 30px;
+}
